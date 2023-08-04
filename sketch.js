@@ -9,12 +9,11 @@ let andarY = 0;
 
 let botao;
 
-//executada apenas uma vez ao iniciar o programa
 function setup() {
   createCanvas(576, 576);
-  personagem = loadImage('monstro.png');
-  grama = loadImage('grama.jpg');
-  cake = loadImage('cake.png');
+  personagem = loadImage('src/img/monstro.png');
+  grama = loadImage('src/img/grama.jpg');
+  cake = loadImage('src/img/cake.png');
 }
 
 function draw() {
